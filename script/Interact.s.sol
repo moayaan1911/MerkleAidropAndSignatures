@@ -102,9 +102,9 @@ contract ClaimAirdrop is Script {
         // Use inline assembly to efficiently extract signature components
         // Memory layout: sig[0] = length, sig[32] = r, sig[64] = s, sig[96] = v
         assembly {
-            r := mload(add(sig, 32))    // Load r from bytes 0-31 (after length prefix)
-            s := mload(add(sig, 64))    // Load s from bytes 32-63
-            v := byte(0, mload(add(sig, 96)))  // Load v from byte 64 (first byte of word at position 96)
+            r := mload(add(sig, 32)) // Load r from bytes 0-31 (after length prefix)
+            s := mload(add(sig, 64)) // Load s from bytes 32-63
+            v := byte(0, mload(add(sig, 96))) // Load v from byte 64 (first byte of word at position 96)
         }
     }
 }
