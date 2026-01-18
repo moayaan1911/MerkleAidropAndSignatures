@@ -1,12 +1,3 @@
-# Prompt Template: Generate Interactive Project Explanation HTML
-
-Use this prompt in any blockchain/smart contract project to generate a beautiful, interactive HTML documentation file similar to `ProjectExplanation.html`.
-
----
-
-## 📋 THE PROMPT (Copy Everything Below)
-
-```
 Create an interactive, single-page HTML documentation file called "ProjectExplanation.html" for this project. The file should be educational, visually appealing, and easy to understand for both beginners and experienced developers.
 
 ## REQUIREMENTS:
@@ -179,5 +170,3 @@ Before finalizing, ensure:
 
 Generate the complete HTML file with all sections filled out based on the project's actual code and structure. Make it educational, beautiful, and comprehensive!
 ```
-
----

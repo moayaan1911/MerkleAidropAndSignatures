@@ -154,10 +154,3 @@ We've set up a powerful `Makefile` to automate everything:
 ---
 
 _Happy Coding! 🥯✨_
-
-
-[now do one thing create an ProjectExplanation.html file in which EXPLAIN the entire project using HEAVY visuals AND emojis so it looks interactive. Explain in sections like:
-1. logic flow (in this mention about the entire logic using visual diagram)
-2. Files explanation (in this also mention code of file with their explanation so i can understand better)
-3. Two explanation sections in which in one u can explain v r s with its graph and all and in one other things, explain using BOTH text AND visuals and add a ELI5 (explain like I am 5) snippet when tough topic
-4. Foundry Workflow (in this mention file flow like first we will run GenerateInput.s.sol file and it will generate input.json and then we will run MakeMerkel.s.sol file and then it will generate output.json and so on. explain this with BOTH text AND visuals)]
